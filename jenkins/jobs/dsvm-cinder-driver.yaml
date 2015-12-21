@@ -1,5 +1,5 @@
 - job-template:
-    name: 'dsvm-tempest-my-cinder-driver'
+    name: 'dsvm-tempest-zte-cinder-driver'
     node: '{node}'
 
     wrappers:
@@ -29,7 +29,7 @@
 
           [mybackend]
           # add you driver configuration here
-          volume_driver=cinder.volume.drivers.MyDriver
+          volume_driver=cinder.volume.drivers.ZTE
           volume_backend_name=mybackend
 
           # Use post-extra because the tempest configuration file is
