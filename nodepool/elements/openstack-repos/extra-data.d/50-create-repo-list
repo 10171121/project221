@@ -20,7 +20,7 @@ import os
 import urllib2
 import yaml
 
-URL = ('https://github.com/10171121/project-config/blob/master/nodepool/elements/openstack-repos/projects.yaml')
+URL = ('https://raw.githubusercontent.com/10171121/project-config/master/nodepool/elements/openstack-repos/projects.yaml')
 
 TMP_HOOKS_PATH=os.environ['TMP_HOOKS_PATH']
 PROJECTS_REPOS=os.path.join(TMP_HOOKS_PATH, 'source-repository-projects-yaml')
