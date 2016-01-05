@@ -1,0 +1,28 @@
+- project: openstack/cinder
+  docimpact-group: openstack-manuals
+  description: OpenStack Block Storage (Cinder)
+  options:
+    - translate
+- project: openstack/cinder-specs
+  groups:
+    - cinder
+  description: OpenStack Block Storage (Cinder) Specifications
+- project: openstack/nova
+  docimpact-group: openstack-manuals
+  description: OpenStack Compute (Nova)
+  options:
+    - translate
+- project: openstack/horizon
+  description: OpenStack Dashboard (Horizon)
+  options:
+    - translate
+- project: openstack/keystone
+  docimpact-group: openstack-manuals
+  description: OpenStack Identity (Keystone)
+  options:
+    - translate
+- project: openstack/glance
+  docimpact-group: openstack-manuals
+  description: OpenStack Image Management (Glance)
+  options:
+    - translate
